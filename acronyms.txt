@@ -1,0 +1,5 @@
+IDE - Integrated Development Environment
+OOP - Object Oriented Programming
+UX - User Experience
+ML - Machine Learning
+PPT - PowerPoint
