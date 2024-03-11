@@ -1,3 +1,5 @@
+#This code showcases dictionary creation, updating, deletion, and retrieval operations, along with string concatenation using values from dictionaries.
+
 acronymslist = {'lol': 'laugh out loud',
                 'idk': 'i dont know',
                 'tbh': 'to be honest'}
