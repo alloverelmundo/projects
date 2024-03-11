@@ -1,3 +1,5 @@
+#This code defines a hierarchy of employee classes for different types of compensation structures: salary-based, hourly-based, and commission-based. 
+
 class employee:
     def __init__(self, fname, lname):
         self.fname = fname
