@@ -1,3 +1,5 @@
+#This code is my initial try of creating a function.
+
 def greeting(name): #using the def keyword, greeting is the function name, and name is a parameter (can have 0 to infinity parameters)
     print('Hello', name);
 
