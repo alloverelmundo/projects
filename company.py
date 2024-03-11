@@ -1,3 +1,5 @@
+#This code defines several classes (company, employee, salaryemployee, hourlyemployee, commissionemployee) and a main function.
+
 from employee import employee, salaryemployee, hourlyemployee, commissionemployee;
 
 class company:
