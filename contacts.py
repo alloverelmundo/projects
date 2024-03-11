@@ -1,3 +1,4 @@
+#This code defines a dictionary named contacts with two keys: 'number' and 'students'.
 contacts = {
     'number': 2, 
     'students': [
