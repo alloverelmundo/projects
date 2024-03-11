@@ -1,7 +1,7 @@
 from employee import employee, salaryemployee, hourlyemployee, commissionemployee;
 
 class company:
-    def __init__(self):
+    def __init__(self): #self is always needed when defining a class
         self.employees = [];
 
     def addemployee(self, newemployee):
@@ -16,7 +16,7 @@ class company:
     def payemployees(self):
         print('paying employees:')
         for i in self.employees:
-            print(f'Amount: ${i.calculatepaycheck():,.2f}');
+            print(f'Amount: ${i.calculatepaycheck():,.2f}'); #:,.2fformats a number with two decimal places and includes commas as thousands separators, i formats as currency
 
 def main ():
     mycompany = company()
