@@ -3,6 +3,9 @@
     #print(result)
 #with keyword makes sure file is properly closed even if an exception is raised
 #final code
+
+#This code provides an interface for managing a list of acronyms and their definitions stored in a text file named 'acronyms.txt'. 
+#It allows users to add new acronyms and definitions or search for the definitions of existing acronyms.
     
 def findacronym():
 
