@@ -1,8 +1,7 @@
-""" with open('acronyms.txt') as file: #open() returns a file object that has methods like read() and write ()
-    result = file.read(); #read returns the whole file as a string by default
-    print(result)
-#with keyword makes sure file is properly closed even if exception is raised
-     """
+#with open('acronyms.txt') as file: #open() returns a file object that has methods like read() and write ()
+    #result = file.read(); #read returns the whole file as a string by default
+    #print(result)
+#with keyword makes sure file is properly closed even if an exception is raised
 #final code
     
 def findacronym():
