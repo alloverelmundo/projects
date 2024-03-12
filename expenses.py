@@ -1,3 +1,5 @@
+#This code allows users to input their expenses individually or in bulk, calculates the total expenses, and then prints out the total amount spent.
+
 expenses = [10.50,8,5,15,20,5,3];
 
 #print("you spent $", sum, sep = ''); # the comma means we dont have to convert to string and automatically adds a space
