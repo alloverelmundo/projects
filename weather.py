@@ -1,3 +1,6 @@
+#The first part of the code utilizes the WeatherAPI to fetch current weather information for London, extracting and printing the temperature in Fahrenheit and weather description. 
+#The second part demonstrates conditional statements: it prints messages based on temperature thresholds and weather forecasts, and it showcases the usage of boolean variables to determine whether to advise staying indoors based on the rain status.
+
 import requests
 
 city = 'London'
