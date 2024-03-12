@@ -1,3 +1,7 @@
+#This code defines two classes, `Robot` and `RobotDog`, where `RobotDog` inherits from `Robot`. 
+#It initializes a `RobotDog` instance named 'Bud', moves it, makes it emit a noise, and then feeds it. 
+# It invokes its overridden `eat` method, which includes the behavior of its superclass, and its unique behavior to express a preference for bacon after being fed.
+
 class Robot:
     def __init__(self, name):
         self.name = name
