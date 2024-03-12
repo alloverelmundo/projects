@@ -1,3 +1,6 @@
+#This code allows the user to play a game of rock-paper-scissors against the computer. 
+#It randomly selects the computer's choice, prompts the user for their choice, compares the choices, and determines the outcome, printing whether the user wins, loses, or ties with the computer.
+
 import random
 
 computer_choice = random.choice(['rock','paper','scissors']);
