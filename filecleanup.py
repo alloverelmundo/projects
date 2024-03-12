@@ -1,3 +1,6 @@
+#This code first scans a specified folder, printing out whether each entry is a file or directory. 
+#Then, it moves files from one folder to another, ensures the existence of a destination folder, and moves files from one folder to another while maintaining the directory structure.
+
 import os;
 
 folder = '/Users/vk/Desktop/vscodepractice/'
@@ -27,7 +30,7 @@ for entry in os.scandir(originalfolder): #list the entries in the desktop folder
     if os.path.isfile(entry):
         os.rename(originallocation, destinationlocation); #rename allows us to move a file to a new path
 
-#chat gpt code
+#alternative code
 
 import os
 
