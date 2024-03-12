@@ -13,6 +13,9 @@
 
 ##########
 
+#This code initializes a SQLite database named 'portfolio.db'.
+#This code sets up a table named 'investments' with columns for coin ID, currency, amount, sale status, and date, ensuring the table exists if it hasn't been created yet.
+
 #creating a command line application
 
 import sqlite3
@@ -35,6 +38,14 @@ CREATE TABLE IF NOT EXISTS investments (
     date TIMESTAMP
 );
 """
+
+######################
+
+#This code defines a command-line interface using the click library for managing cryptocurrency investments. 
+#It includes commands to display the current price of a specified cryptocurrency, as well as to add a new investment record with details like coin ID, currency, amount, and whether it's a sale or purchase. 
+#The show_coin_price command retrieves and prints the current price of a specified cryptocurrency.
+#The add_investment command inserts a new investment record into a SQLite database, with an option to specify a sale.
+
 
 def get_coin_price(coin_id, currency):
     url = f"https://api.coingecko.com/api/v3/simple/price?ids={coin_id}&vs_currencies={currency}"
@@ -68,6 +79,12 @@ def add_investment(coin_id, currency, amount, sell):
         print(f"Added sell of {amount} {coin_id}")
     else:
         print(f"Added buy of {amount} {coin_id}")
+
+#####################
+
+#This code extends a command-line interface built with click, introducing commands to calculate the total value of investments in a specified cryptocurrency 
+#Also imports investment data from a CSV file into a SQLite database. 
+#It integrates these new functionalities into the existing CLI alongside commands for displaying coin prices and adding new investments, utilizing a SQLite database for data storage.
 
 @click.command()
 @click.option("--coin_id")
