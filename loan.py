@@ -1,4 +1,7 @@
-# get details of loan
+#This code allows users to simulate the repayment of a loan by taking inputs such as the loan amount, annual percentage rate (APR), monthly payment, and duration in months. 
+#It then iterates through each month, calculating the interest accrued, subtracting the payment, and printing the remaining balance until the loan is fully paid off or until the specified number of months elapses.
+
+#get details of loan
 money_owed = float(input("How much money do you owe, in dollars?\n")); #50,000
 apr = float(input("What is the annual percentage rate of the loan?\n")) #3%
 payment = float(input("How much will you pay off each month in dollars?\n")) # $1,000
